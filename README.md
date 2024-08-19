@@ -26,11 +26,23 @@ The interface includes the following components:
 - **Submit Button**: Triggers the detection and recognition process.
 - **Result Display**: Shows the recognized license plate number and confidence level.
 
+## Results
 
+- **License Plate Image**:
+  ![License Plate Image](image/license_plate_image.png)
+
+- **Image with License Plate Contour and Text**:
+  ![Image with Contour](image/image_with_contour.png)
+
+- **Prediction Result with Confidence Percentage**:
+  ![Prediction Result](image/prediction_result.png)
+  
+  The result includes:
+  - The predicted license plate number.
+  - The confidence level of the prediction.
 
 ### Prerequisites
-
-- Python 3.x
+To set up the project, ensure you have Python 3.x installed.
 - Required Python packages:
   - `opencv-python`
   - `easyocr`
